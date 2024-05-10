@@ -1,0 +1,37 @@
+{
+  "build": "py312h1f38498_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=3.8.4,<3.8.5.0a0",
+    "python >=3.12,<3.13.0a0",
+    "python_abi 3.12.* *_cp312",
+    "tornado >=5"
+  ],
+  "extracted_package_dir": "/opt/homebrew/Caskroom/miniforge/base/pkgs/matplotlib-3.8.4-py312h1f38498_0",
+  "features": "",
+  "files": [],
+  "fn": "matplotlib-3.8.4-py312h1f38498_0.conda",
+  "license": "PSF-2.0",
+  "license_family": "PSF",
+  "link": {
+    "source": "/opt/homebrew/Caskroom/miniforge/base/pkgs/matplotlib-3.8.4-py312h1f38498_0",
+    "type": 1
+  },
+  "md5": "abe7b1e19a0b459c94da4b785664ca74",
+  "name": "matplotlib",
+  "package_tarball_full_path": "/opt/homebrew/Caskroom/miniforge/base/pkgs/matplotlib-3.8.4-py312h1f38498_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "matplotlib",
+  "sha256": "4651d701b5c3d4598329e9d2aa2bbb8a3885db2608def1a70a69bd3dad165d62",
+  "size": 8616,
+  "subdir": "osx-arm64",
+  "timestamp": 1712606663191,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-arm64/matplotlib-3.8.4-py312h1f38498_0.conda",
+  "version": "3.8.4"
+}
