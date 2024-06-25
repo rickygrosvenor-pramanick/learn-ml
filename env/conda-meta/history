@@ -78,3 +78,128 @@
 +conda-forge/osx-arm64::openssl-3.3.0-hfb2fe0b_3
 +conda-forge/osx-arm64::statsmodels-0.14.2-py312hbebd99a_0
 # update specs: ['seaborn']
+==> 2024-06-03 16:37:16 <==
+# cmd: /opt/homebrew/Caskroom/miniforge/base/bin/conda install pytorch::pytorch torchvision torchaudio -c pytorch
+# conda version: 23.5.2
+-conda-forge/noarch::patsy-0.5.6-pyhd8ed1ab_0
+-conda-forge/noarch::seaborn-0.13.2-hd8ed1ab_2
+-conda-forge/noarch::seaborn-base-0.13.2-pyhd8ed1ab_2
+-conda-forge/osx-arm64::ca-certificates-2024.2.2-hf0a4a13_0
+-conda-forge/osx-arm64::statsmodels-0.14.2-py312hbebd99a_0
++conda-forge/noarch::charset-normalizer-3.3.2-pyhd8ed1ab_0
++conda-forge/noarch::filelock-3.14.0-pyhd8ed1ab_0
++conda-forge/noarch::idna-3.7-pyhd8ed1ab_0
++conda-forge/noarch::jinja2-3.1.4-pyhd8ed1ab_0
++conda-forge/noarch::mpmath-1.3.0-pyhd8ed1ab_0
++conda-forge/noarch::networkx-3.3-pyhd8ed1ab_1
++conda-forge/noarch::pysocks-1.7.1-pyha2e5f31_6
++conda-forge/noarch::requests-2.32.3-pyhd8ed1ab_0
++conda-forge/noarch::sympy-1.12-pypyh9d50eac_103
++conda-forge/noarch::typing_extensions-4.12.1-pyha770c72_0
++conda-forge/noarch::urllib3-2.2.1-pyhd8ed1ab_0
++conda-forge/osx-arm64::brotli-python-1.1.0-py312h9f69965_1
++conda-forge/osx-arm64::ca-certificates-2024.6.2-hf0a4a13_0
++conda-forge/osx-arm64::gmp-6.3.0-hebf3989_1
++conda-forge/osx-arm64::gmpy2-2.1.5-py312hfa9fade_1
++conda-forge/osx-arm64::markupsafe-2.1.5-py312he37b823_0
++conda-forge/osx-arm64::mpc-1.3.1-h91ba8db_0
++conda-forge/osx-arm64::mpfr-4.2.1-h41d338b_1
++conda-forge/osx-arm64::pyyaml-6.0.1-py312h02f2b3b_1
++conda-forge/osx-arm64::yaml-0.2.5-h3422bc3_2
++pytorch/osx-arm64::pytorch-2.2.2-py3.12_0
++pytorch/osx-arm64::torchaudio-2.2.2-py312_cpu
++pytorch/osx-arm64::torchvision-0.17.2-py312_cpu
+# update specs: ['pytorch::pytorch', 'torchvision', 'torchaudio']
+==> 2024-06-03 16:37:37 <==
+# cmd: /opt/homebrew/Caskroom/miniforge/base/bin/conda install seaborn
+# conda version: 23.5.2
++conda-forge/noarch::patsy-0.5.6-pyhd8ed1ab_0
++conda-forge/noarch::seaborn-0.13.2-hd8ed1ab_2
++conda-forge/noarch::seaborn-base-0.13.2-pyhd8ed1ab_2
++conda-forge/osx-arm64::statsmodels-0.14.2-py312hbebd99a_0
+# update specs: ['seaborn']
+==> 2024-06-25 14:53:30 <==
+# cmd: /opt/homebrew/Caskroom/miniforge/base/bin/conda install opencv
+# conda version: 23.5.2
+-conda-forge/noarch::certifi-2024.2.2-pyhd8ed1ab_0
+-conda-forge/osx-arm64::openssl-3.3.0-hfb2fe0b_3
++conda-forge/noarch::certifi-2024.6.2-pyhd8ed1ab_0
++conda-forge/noarch::font-ttf-dejavu-sans-mono-2.37-hab24e00_0
++conda-forge/noarch::font-ttf-inconsolata-3.000-h77eed37_0
++conda-forge/noarch::font-ttf-source-code-pro-2.038-h77eed37_0
++conda-forge/noarch::font-ttf-ubuntu-0.83-h77eed37_2
++conda-forge/noarch::fonts-conda-ecosystem-1-0
++conda-forge/noarch::fonts-conda-forge-1-0
++conda-forge/osx-arm64::aom-3.9.1-h7bae524_0
++conda-forge/osx-arm64::c-ares-1.28.1-h93a5062_0
++conda-forge/osx-arm64::cairo-1.18.0-hd1e100b_0
++conda-forge/osx-arm64::dav1d-1.2.1-hb547adb_0
++conda-forge/osx-arm64::expat-2.6.2-hebf3989_0
++conda-forge/osx-arm64::ffmpeg-6.1.1-gpl_hc16618e_112
++conda-forge/osx-arm64::fontconfig-2.14.2-h82840c6_0
++conda-forge/osx-arm64::fribidi-1.0.10-h27ca646_0
++conda-forge/osx-arm64::gettext-0.22.5-h8fbad5d_2
++conda-forge/osx-arm64::gettext-tools-0.22.5-h8fbad5d_2
++conda-forge/osx-arm64::gnutls-3.7.9-hd26332c_0
++conda-forge/osx-arm64::graphite2-1.3.13-hebf3989_1003
++conda-forge/osx-arm64::harfbuzz-8.5.0-h1836168_0
++conda-forge/osx-arm64::hdf5-1.14.3-nompi_hec07895_105
++conda-forge/osx-arm64::icu-73.2-hc8870d7_0
++conda-forge/osx-arm64::imath-3.1.11-h1059232_0
++conda-forge/osx-arm64::jasper-4.2.4-h6c4e4ef_0
++conda-forge/osx-arm64::krb5-1.21.2-h92f50d5_0
++conda-forge/osx-arm64::lame-3.100-h1a8c8d9_1003
++conda-forge/osx-arm64::libabseil-20240116.2-cxx17_hebf3989_0
++conda-forge/osx-arm64::libaec-1.1.3-hebf3989_0
++conda-forge/osx-arm64::libasprintf-0.22.5-h8fbad5d_2
++conda-forge/osx-arm64::libasprintf-devel-0.22.5-h8fbad5d_2
++conda-forge/osx-arm64::libass-0.17.1-hf7da4fe_1
++conda-forge/osx-arm64::libcurl-8.8.0-h7b6f9a7_0
++conda-forge/osx-arm64::libedit-3.1.20191231-hc8eb9b7_2
++conda-forge/osx-arm64::libev-4.33-h93a5062_2
++conda-forge/osx-arm64::libgettextpo-0.22.5-h8fbad5d_2
++conda-forge/osx-arm64::libgettextpo-devel-0.22.5-h8fbad5d_2
++conda-forge/osx-arm64::libglib-2.80.2-h535f939_0
++conda-forge/osx-arm64::libhwloc-2.10.0-default_h7685b71_1001
++conda-forge/osx-arm64::libiconv-1.17-h0d3ecfb_2
++conda-forge/osx-arm64::libidn2-2.3.7-h93a5062_0
++conda-forge/osx-arm64::libintl-0.22.5-h8fbad5d_2
++conda-forge/osx-arm64::libintl-devel-0.22.5-h8fbad5d_2
++conda-forge/osx-arm64::liblapacke-3.9.0-22_osxarm64_openblas
++conda-forge/osx-arm64::libnghttp2-1.58.0-ha4dd798_1
++conda-forge/osx-arm64::libopencv-4.10.0-headless_py312hb08384e_0
++conda-forge/osx-arm64::libopenvino-2024.1.0-h5c9529b_7
++conda-forge/osx-arm64::libopenvino-arm-cpu-plugin-2024.1.0-h5c9529b_7
++conda-forge/osx-arm64::libopenvino-auto-batch-plugin-2024.1.0-hcd65546_7
++conda-forge/osx-arm64::libopenvino-auto-plugin-2024.1.0-hcd65546_7
++conda-forge/osx-arm64::libopenvino-hetero-plugin-2024.1.0-h88cb26a_7
++conda-forge/osx-arm64::libopenvino-ir-frontend-2024.1.0-h88cb26a_7
++conda-forge/osx-arm64::libopenvino-onnx-frontend-2024.1.0-h32b5460_7
++conda-forge/osx-arm64::libopenvino-paddle-frontend-2024.1.0-h32b5460_7
++conda-forge/osx-arm64::libopenvino-pytorch-frontend-2024.1.0-h00cdb27_7
++conda-forge/osx-arm64::libopenvino-tensorflow-frontend-2024.1.0-h2741c3b_7
++conda-forge/osx-arm64::libopenvino-tensorflow-lite-frontend-2024.1.0-h00cdb27_7
++conda-forge/osx-arm64::libopus-1.3.1-h27ca646_1
++conda-forge/osx-arm64::libprotobuf-4.25.3-hbfab5d5_0
++conda-forge/osx-arm64::libssh2-1.11.0-h7a5bd25_0
++conda-forge/osx-arm64::libtasn1-4.19.0-h1a8c8d9_0
++conda-forge/osx-arm64::libunistring-0.9.10-h3422bc3_0
++conda-forge/osx-arm64::libvpx-1.14.1-h7bae524_0
++conda-forge/osx-arm64::libxml2-2.12.7-ha661575_1
++conda-forge/osx-arm64::nettle-3.9.1-h40ed0f5_0
++conda-forge/osx-arm64::opencv-4.10.0-headless_py312hf580477_0
++conda-forge/osx-arm64::openexr-3.2.2-h2c51e1d_1
++conda-forge/osx-arm64::openh264-2.4.1-hebf3989_0
++conda-forge/osx-arm64::openssl-3.3.1-hfb2fe0b_0
++conda-forge/osx-arm64::p11-kit-0.24.1-h29577a5_0
++conda-forge/osx-arm64::pcre2-10.43-h26f9a81_0
++conda-forge/osx-arm64::pixman-0.43.4-hebf3989_0
++conda-forge/osx-arm64::pugixml-1.14-h13dd4ca_0
++conda-forge/osx-arm64::py-opencv-4.10.0-headless_py312hd31a7ba_0
++conda-forge/osx-arm64::snappy-1.2.0-hd04f947_1
++conda-forge/osx-arm64::svt-av1-2.1.0-h7bae524_0
++conda-forge/osx-arm64::tbb-2021.12.0-h420ef59_1
++conda-forge/osx-arm64::x264-1!164.3095-h57fd34a_2
++conda-forge/osx-arm64::x265-3.5-hbc6ce65_3
++conda-forge/osx-arm64::zlib-1.2.13-h53f4e23_5
+# update specs: ['opencv']
