@@ -15,11 +15,14 @@ def linear_filter(filename):
     ddepth = -1
 
     ind = 0
-
+    lst = [0 for _ in range(0, 1206)] + [1]
+    print(lst[-1])
     while True:
-        kernel_size = 3 + 2 * (ind % 5)
-        kernel = np.ones((kernel_size, kernel_size), dtype=np.float32)
-        kernel /= (kernel_size * kernel_size)
+        kernel = np.array([[0 for _ in range(0, 1207)],
+                           lst,
+                           [0 for _ in range(0, 1207)]
+                           ])
+        # kernel /= (kernel_size * kernel_size)
 
         # Apply filter
         dst = cv.filter2D(image, ddepth, kernel)
@@ -33,8 +36,4 @@ def linear_filter(filename):
 
     return 0
 
-linear_filter('lena.jpg')
-
-
-
-
+linear_filter('eye.jpg')
